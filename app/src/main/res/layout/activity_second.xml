@@ -6,5 +6,18 @@
     android:layout_height="match_parent">
 
 
+    <Button
+        android:text="@string/start_third_activity"
+        android:layout_width="193dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/button2thirdActv"
+        android:onClick="btnClickSwitchActivityTo3" />
+
+    <Button
+        android:text="Start Phones Camera"
+        android:layout_width="191dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/button4camera"
+        android:onClick="btnOpenCameraClicked" />
 </LinearLayout>
 
